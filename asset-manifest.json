@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbf68139.css",
-    "main.js": "/static/js/main.73b92931.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/BeautyWorld.png": "/static/media/BeautyWorld.4d3e898730f1ab58b68c.png",
-    "static/media/firstcry.png": "/static/media/firstcry.4f3ac858fb4ee79147a4.png",
-    "static/media/hi.png": "/static/media/hi.f16dec5371c422927426.png",
-    "static/media/Shubham_photo.jpg": "/static/media/Shubham_photo.f4855259e0fce1da8018.jpg",
-    "static/media/apple.png": "/static/media/apple.4505c63384251229b378.png",
+    "main.css": "/static/css/main.8fb45124.css",
+    "main.js": "/static/js/main.dcc94d51.js",
+    "static/media/shubhamprof.png": "/static/media/shubhamprof.7d59788e1561c8957f92.png",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.bbf68139.css.map": "/static/css/main.bbf68139.css.map",
-    "main.73b92931.js.map": "/static/js/main.73b92931.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.8fb45124.css.map": "/static/css/main.8fb45124.css.map",
+    "main.dcc94d51.js.map": "/static/js/main.dcc94d51.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbf68139.css",
-    "static/js/main.73b92931.js"
+    "static/css/main.8fb45124.css",
+    "static/js/main.dcc94d51.js"
   ]
 }
