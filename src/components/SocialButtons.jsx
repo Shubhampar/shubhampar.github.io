@@ -12,7 +12,7 @@ const SocialButtons = () => {
       <Button
         as="a"
         margin="5px"    
-
+        id="contact-github"
         size={["xs", "sm", "md", "md", "md"]}
         href="https://github.com/Shubhampar"
         bg="brand_secondary"
@@ -27,7 +27,7 @@ const SocialButtons = () => {
       <Button
         as="a"
         margin="5px"    
-
+        id="contact-linkedin"
         size={["xs", "sm", "md", "md", "md"]}
         href="https://www.linkedin.com/in/shubham-singh-86664094/"
         bg="brand_secondary"

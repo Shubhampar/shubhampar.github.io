@@ -31,7 +31,7 @@ const SummaryAboutme = () => {
         </Text>
         <Divider w={['100px','200px']} m='auto' my={['5px','10px']} borderColor="brand_secondary" />
 
-        <Text fontSize={['xs',"md"]} margin="auto">
+        <Text fontSize={['xs',"md"]} margin="auto" id="user-detail-intro">
         An inspired team palyer,always curious about new
         problems and learning new things in order to deliver out of the box solution with complete ownership.
         </Text>
@@ -50,14 +50,14 @@ const SummaryAboutme = () => {
           </Icon>{" "}
           Lucknow,Uttar Pradesh{" "}
         </Box>
-        <Box fontSize='.7em'>
+        <Box fontSize='.7em'  id="contact-email">
           {" "}
           <Icon fontSize='1.2em'>
             <MdEmail  />
           </Icon>{" "}
           ishubhamsingh93@gmail.com{" "}
         </Box>
-        <Box fontSize='.7em'>
+        <Box fontSize='.7em' id="contact-phone">
           <Icon  fontSize='1.2em'>
             <MdPhone />
           </Icon>{" "}
@@ -71,6 +71,7 @@ const SummaryAboutme = () => {
         mt='5px'
         justify='center'
         w='8em'
+        id="contact-github"
         >
           <Link href="https://github.com/Shubhampar"
         target='_blank'>
@@ -82,7 +83,7 @@ const SummaryAboutme = () => {
         <Divider orientation='vertical' h={['15px','20px']} mx='10px'borderColor='black' />
           <Link href="https://www.linkedin.com/in/shubham-singh-86664094/" target='_blank'
           >
-        <Flex fontSize='.7em' justifyContent='center'    >
+        <Flex fontSize='.7em' justifyContent='center' id="contact-linkedin" >
           <FaLinkedin fontSize='1.5em' />
           LinkedIn
         </Flex>

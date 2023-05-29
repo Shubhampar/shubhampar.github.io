@@ -57,7 +57,7 @@ const FooterContact = () => {
             </Icon>{" "}
             Lucknow, Uttar Pradesh{" "}
           </Box>
-          <Link fontSize=".7em" href="mailto:fahisayub@gmail.com">
+          <Link fontSize=".7em" href="mailto:ishubhamsingh93@gmail.com" id="contact-email">
             {" "}
             <Icon fontSize="1.2em">
               <MdEmail />
@@ -65,7 +65,7 @@ const FooterContact = () => {
             ishubhamsingh93@gmail.com{" "}
           </Link>
 <br />
-          <Link fontSize=".7em" href="tel:+918606298790"
+          <Link fontSize=".7em" href="tel:+917897874464"  id="contact-phone" 
             >
             <Icon fontSize="1.2em">
               <MdPhone />

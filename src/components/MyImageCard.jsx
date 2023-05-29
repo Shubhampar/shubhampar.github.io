@@ -19,7 +19,7 @@ const MyImageCard = () => {
         <Container transform= 'rotate(-45deg)'
          height= {['250px','380px','380px']}
          width= {['250px','380px','380px']}
-         
+         className="home-img"
          bgPos='center'
          bgRepeat='no-repeat'
          bgSize='contain'

@@ -22,6 +22,7 @@ const ProjectCard = ({
   return (
     <Container
       maxW="100%"
+      class="project-card"
       margin="auto"
       h="auto"
       boxShadow="lg"
@@ -33,13 +34,13 @@ const ProjectCard = ({
     >
       <Img src={images} boxSize="border-box" borderRadius="10px" />
       <Box>
-        <Heading fontWeight="semibold" size="md" margin="20px">
+        <Heading fontWeight="semibold" size="md" margin="20px" className="project-title">
           {projectTitle}
         </Heading>
-        <Text margin="20px" h="100px">
+        <Text margin="20px" h="100px" className="project-description">
           {description}
         </Text>
-        <Text>TechStack Used:</Text>
+        <Text class="project-tech-stack">TechStack Used:</Text>
         <Box
           margin="auto"
           display="grid"
@@ -76,6 +77,7 @@ const ProjectCard = ({
             target="_blank"
             bg="darkblue"
             color="white"
+            className="project-deployed-link"
             href={livelink}
             _hover={{ color: "black", bg: "gray" }}
           >
@@ -85,6 +87,7 @@ const ProjectCard = ({
            target="_blank" 
           bg="black"
            color="white" 
+           className="project-github-link"
            href={github}
            _hover={{color:'black',bg:'gray'}}
            >

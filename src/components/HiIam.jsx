@@ -25,7 +25,7 @@ const HiIam = () => {
         <Text fontSize={['.9em',"1.2em",'']} textAlign="center" fontWeight="semibold">
           Hi, I'm
         </Text>
-        <Text fontSize={['1.2em',"1.8em",'']} textAlign="center" fontWeight="bold">
+        <Text fontSize={['1.2em',"1.8em",'']} textAlign="center" fontWeight="bold" id="user-detail-name">
           Shubham Singh
         </Text>
 

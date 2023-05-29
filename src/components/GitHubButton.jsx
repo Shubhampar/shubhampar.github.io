@@ -22,6 +22,7 @@ const GitHubButton = () => {
     color='#FF9D57'>Have a look at
     my github</Text>
         <Button borderRadius= '1.25rem'
+    id="contact-github"  
     height= '65px'
     width= '185px'
     bg= '#FF9D57' >
