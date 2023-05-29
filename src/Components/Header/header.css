@@ -138,7 +138,7 @@
     padding-top: 10px !important;
   }
   
-  .fork-btn-inner {
+  .about section {
     line-height: 1.4em !important;
     /* background-color: #0A81AB !important; */
     text-decoration: none !important;
@@ -149,13 +149,13 @@
     text-align: center !important;
   }
   
-  .fork-btn-inner:hover {
+  .about section:hover {
     transform: translateY(-2px) !important;
     cursor: pointer;
     /* background-color: #0A81AB !important;
     border-color: #0A81AB !important; */
   }
-  .fork-btn-inner::after {
+  .about section::after {
     display: none !important;
   }
 

@@ -32,7 +32,7 @@ function Header() {
 
   return (
     <Navbar
-     
+     id="nav-menu"
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
@@ -55,6 +55,7 @@ function Header() {
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
                 className="fork-btn-inner"
+                id="home"
               >
                 Home
           </Button>
@@ -65,7 +66,8 @@ function Header() {
           <Link to="about">
           <Button onClick={()=>{rel(x)}} 
                 target="_blank"
-                className="fork-btn-inner"
+                className="about section"
+                id="about" 
               >
                 About
           </Button>
@@ -77,6 +79,7 @@ function Header() {
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
                 className="fork-btn-inner"
+                id="skills"
               >
                 Skills
           </Button>
@@ -88,6 +91,7 @@ function Header() {
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
                 className="fork-btn-inner"
+                id="projects"
               >
                 Projects
           </Button>
@@ -102,6 +106,7 @@ function Header() {
           <Button onClick={rel}
                 target="_blank"
                 className="fork-btn-inner"
+                id="contact"
               >
                 Contact
           </Button>
