@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.734865d0.css",
-    "main.js": "/static/js/main.aebe7d0c.js",
+    "main.js": "/static/js/main.fd3d2d04.js",
     "static/media/shubhamprof.png": "/static/media/shubhamprof.7d59788e1561c8957f92.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.734865d0.css.map": "/static/css/main.734865d0.css.map",
-    "main.aebe7d0c.js.map": "/static/js/main.aebe7d0c.js.map"
+    "main.fd3d2d04.js.map": "/static/js/main.fd3d2d04.js.map"
   },
   "entrypoints": [
     "static/css/main.734865d0.css",
-    "static/js/main.aebe7d0c.js"
+    "static/js/main.fd3d2d04.js"
   ]
 }
