@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd3b8e38.css",
-    "main.js": "/static/js/main.7a6ab52d.js",
+    "main.css": "/static/css/main.2297608f.css",
+    "main.js": "/static/js/main.d78fc887.js",
     "static/media/Shubham-Singh-Resume.pdf": "/static/media/Shubham-Singh-Resume.10322f02bb3bee075cba.pdf",
     "static/media/shubhamprof.png": "/static/media/shubhamprof.7d59788e1561c8957f92.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.dd3b8e38.css.map": "/static/css/main.dd3b8e38.css.map",
-    "main.7a6ab52d.js.map": "/static/js/main.7a6ab52d.js.map"
+    "main.2297608f.css.map": "/static/css/main.2297608f.css.map",
+    "main.d78fc887.js.map": "/static/js/main.d78fc887.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd3b8e38.css",
-    "static/js/main.7a6ab52d.js"
+    "static/css/main.2297608f.css",
+    "static/js/main.d78fc887.js"
   ]
 }
