@@ -3,13 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function SelfIntro() {
   return (
-    <Container fluid className="home-about-section  container-fluid"  id="about">
-      <Container>
+    <Container fluid className="home-about-section  container-fluid" 
+    >
+      <Container id="user-detail-intro">
         <Row>
-          <Col md={16} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
+          <Col md={10} className="home-about-description"  style={{width:"100%",margin:"auto",textAlign:"center"}}>
             <p className="home-about-body">
               Hi, I'm <span style={{color: "#0A81AB" , fontStyle:"italic"}}>Shubham Singh</span> an aspiring and determined <span style={{color: "#0A81AB" , fontStyle:"italic"}}>Full Stack Web Developer</span>, curious to explore different industry-standard tech stacks and environments.
               Skilled in the <span style={{color: "#0A81AB" , fontStyle:"italic"}}>MERN stack</span> and willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization’s goal.

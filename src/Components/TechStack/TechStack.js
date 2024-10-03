@@ -14,7 +14,7 @@ import {
 import {SiRedux,SiExpress,SiTailwindcss } from "react-icons/si";
 
 function Techstack() {
-  return (<div id="skills" >
+  return (<div id="skills"  >
     <br/>
     <br/>
     <br/>
@@ -22,76 +22,96 @@ function Techstack() {
     <span className="purple">Skills</span> 
     </h1>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-     
-    <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://reactjs.org/" target={"_blank"}>  
+     <Col xs={4} md={2} className="tech-icons">
+     <div className="skills-card">
+      <a href = "https://reactjs.org/" target={"_blank"} className="skills-card-img">  
         <DiReact />
-        <p>React</p>
+        <p class="skills-card-name">React</p>
       </a>
+     </div>
       </Col>
-
-    <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://redux.js.org/" target={"_blank"}> 
+   
+<Col xs={4} md={2} className="tech-icons">
+<div className="skills-card">
+      <a href = "https://redux.js.org/" target={"_blank"} className="skills-card-img"> 
         <SiRedux />
-        <p>Redux</p>
+        <p class="skills-card-name">Redux</p>
       </a>
+</div>
       </Col>
-
-    <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://expressjs.com/" target={"_blank"}>
+<Col xs={4} md={2} className="tech-icons">
+<div className="skills-card">
+      <a href = "https://expressjs.com/" target={"_blank"} className="skills-card-img">
         <SiExpress />
-        <p>Express</p>
+        <p class="skills-card-name">Express</p>
       </a>
+</div>
       </Col>
-
-    <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://www.mongodb.com/" target={"_blank"}> 
+   
+<Col xs={4} md={2} className="tech-icons">
+<div className="skills-card">
+      <a href = "https://www.mongodb.com/" target={"_blank"} className="skills-card-img"> 
         <DiMongodb />
-        <p>Mongodb</p>
+        <p class="skills-card-name">Mongodb</p>
       </a>
+</div>
       </Col>
-      
-    <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://nodejs.org/en/" target={"_blank"}>
+   
+ <Col xs={4} md={2} className="tech-icons">
+ <div className="skills-card">
+      <a href = "https://nodejs.org/en/" target={"_blank"} className="skills-card-img">
         <DiNodejs />
-        <p>Nodejs</p>
+        <p class="skills-card-name">Nodejs</p>
       </a>
+  </div>     
       </Col>
-
-    <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript" target={"_blank"}>
+   
+<Col xs={4} md={2} className="tech-icons">
+<div className="skills-card">
+      <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript" target={"_blank"} className="skills-card-img">
         <DiJavascript1 />
-        <p>Javascript</p>
+        <p class="skills-card-name">Javascript</p>
       </a>
+</div>
       </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://tailwindcss.com/" target={"_blank"}>
+  
+<Col xs={4} md={2} className="tech-icons">
+<div className="skills-card">
+      <a href = "https://tailwindcss.com/" target={"_blank"} className="skills-card-img">
         <SiTailwindcss />
-        <p>Tailwind</p>
+        <p class="skills-card-name">Tailwind</p>
         </a>
+</div>
       </Col>
+   
       
-      
-      <Col xs={4} md={2} className="tech-icons">
-       <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML" target={"_blank"}>
+  <Col xs={4} md={2} className="tech-icons">
+  <div className="skills-card">
+       <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML" target={"_blank"} className="skills-card-img">
         <DiHtml5 />
-        <p>Html5</p>
+        <p class="skills-card-name">Html5</p>
         </a>
+    </div>    
       </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://github.com/" target={"_blank"}>
+    
+     <Col xs={4} md={2} className="tech-icons">
+     <div className="skills-card">
+      <a href = "https://github.com/" target={"_blank"} className="skills-card-img">
         <DiGithubBadge />
-        <p>Github</p>
+        <p class="skills-card-name">Github</p>
         </a>
+      </div> 
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <a href = "https://getbootstrap.com/" target={"_blank"}>
+     <div className="skills-card">
+      <a href = "https://getbootstrap.com/" target={"_blank"} className="skills-card-img">
         <DiBootstrap />
-        <p>Bootstrap</p>
+        <p class="skills-card-name">Bootstrap</p>
         </a>
-      </Col>
+      
+     </div>
+     </Col>
+    
     </Row>
     </div>
   );

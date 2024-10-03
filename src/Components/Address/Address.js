@@ -15,7 +15,7 @@ function Address() {
       <p style={{ textAlign: "center",padding:"20px", color:"white" }}>Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.</p>
 
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col xs={4} md={2} className="tech-icons"  id="contact-phone">
             <BsTelephone/>
             <br/>
             <span>+91-7897874464</span>
@@ -23,18 +23,18 @@ function Address() {
         <Col xs={4} md={2} className="tech-icons">
             <HiOutlineMailOpen/>
            <br/>
-            <a style={{textDecoration: 'none',color: 'white'}}  href="mailto:ishubhamsingh93@gmail.com">ishubhamsingh93@gmail.com</a>
+            <a style={{textDecoration: 'none',color: 'white'}} id="contact-email"  href="mailto:ishubhamsingh93@gmail.com">ishubhamsingh93@gmail.com</a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <AiFillGithub/>
             <br/>
-            <a style={{textDecoration: 'none',color: 'white'}}  href="https://github.com/Shubhampar" target="_blank" rel="noopener noreferrer">Github</a>
+            <a style={{textDecoration: 'none',color: 'white'}} id="contact-github" href="https://github.com/Shubhampar" target="_blank" rel="noopener noreferrer">Github</a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <AiFillLinkedin/>
             <br/>
             
-            <a style={{textDecoration: 'none',color: 'white'}}  href="https://www.linkedin.com/in/shubham-singh-86664094/"  target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a style={{textDecoration: 'none',color: 'white'}}  id="contact-linkedin"  href="https://www.linkedin.com/in/shubham-singh-86664094/"  target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </Col>
       </Row>
 

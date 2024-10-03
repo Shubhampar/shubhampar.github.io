@@ -1,5 +1,5 @@
 
-  .project-card-view {
+  .project-card {
     box-shadow: 0 4px 5px 3px #0A81AB !important;
     color: white !important;
     background-color: transparent !important;
@@ -7,7 +7,7 @@
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
   }
-  .project-card-view:hover {
+  .project-card:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
     box-shadow: 0 4px 4px 5px #0A81AB !important;

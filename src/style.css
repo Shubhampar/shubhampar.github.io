@@ -16,7 +16,8 @@ html {
 }
 
 .purple {
-  color:#0A81AB
+  color:#0A81AB;
+
 }
 
 /* --------- */
@@ -116,11 +117,14 @@ html {
 
 .home-header {
   padding-top: 80px !important;
+  width:50%;
+  margin:auto;
+  
 }
 
 .home-section {
-  position: relative;
-  z-index: -1;
+  /* position: relative; */
+  /* z-index: -1; */
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
@@ -216,13 +220,13 @@ html {
 
 .home-about-description {
   color: rgb(255, 255, 255) !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
+  /* padding-top: 100px !important; */
+  /* padding-bottom: 20px !important; */
   text-align: center;
 }
 
 .home-about-body {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -397,6 +401,10 @@ html {
   color: white !important;
   background-color: transparent !important;
 }
+#about{
+  width: 90%;
+  margin:auto;
+}
 
 .about-activity {
   list-style: none !important;
@@ -406,6 +414,9 @@ html {
 
 @media (max-width: 767px) {
   .about-img {
+    padding-top: 0 !important;
+  }
+  .home-header {
     padding-top: 0 !important;
   }
 }
@@ -525,7 +536,7 @@ html {
     transform: scale(1.5);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1.5);
   }
 }
 
@@ -537,5 +548,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background:#000000;
   /* background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35)); */
+}
+
+.body-button{
+  width:150px;
+  color: #ffffff !important;
+  background-color: #0A81AB !important;
+  border-color: #0A81AB !important;
+  text-align: center;  
+}
+a{
+  text-decoration:none;
+  color: #fff;
+}
+.body-button a:hover{
+  color:#fff;
 }
 

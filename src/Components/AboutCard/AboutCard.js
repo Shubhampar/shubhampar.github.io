@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card>
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>

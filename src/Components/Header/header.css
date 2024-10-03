@@ -1,4 +1,4 @@
-/* Navbar Section  */
+/* Navbar Section 
   /* --------- */
   .sticky {
     background-color: #32393b !important;
@@ -16,7 +16,7 @@
   
   .navbar-toggler {
     padding: 0.25rem 1.5rem !important;
-    position: relative !important;
+    /* position: relative !important; */
     background-color: transparent !important;
     border-color: transparent !important;
    
@@ -66,6 +66,31 @@
     transform: rotate(-135deg) !important;
     opacity: 0.9 !important;
   }
+  @media (max-width:1340px){
+    .navbar {
+      position: fixed !important;
+      /* transition: all 0.3s ease-out 0s !important; */
+      padding: 0.3rem 25rem !important;
+      font-size: 1.2rem !important;
+    }
+    .navbar-nav .nav-item {
+      position: relative;
+      margin-left: 0px;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 1180px) {
+    .navbar {
+      position: fixed !important;
+      /* transition: all 0.3s ease-out 0s !important; */
+      padding: 0.3rem 20rem !important;
+      font-size: 1.2rem !important;
+    }
+    .navbar-nav .nav-link {
+      color: white !important;
+      padding-right: 0rem !important;
+      padding-left: 0rem !important;
+    }
+  }
   
   @media (max-width: 1000px) {
     .navbar {
@@ -76,9 +101,13 @@
     .navbar-nav .nav-item a::after {
       display: none !important;
     }
+    .Navbar-Name{
+      display: none;
+    }
   }
   .navbar-brand {
     color: rgb(250, 250, 250) !important;
+
   }
   
   .logo {
@@ -88,18 +117,20 @@
   
   .navbar-nav .nav-link {
     color: white !important;
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    padding-right: 1rem ;
+    padding-left: 1rem ;
   }
   
   .nav-link {
     padding: 0.8rem 1rem !important;
   }
   
+  
   @media (max-width: 767px) {
     .nav-link {
       padding: 0.7rem 1rem !important;
     }
+   
   }
   
   .navbar-nav .nav-item {
@@ -162,4 +193,17 @@
   Button{
     background-color:none !important
     
+  }
+  .Navbar-Name{
+    position:fixed;
+    top:20px;
+    left:50px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family:"clicker Script", cursive;
+    color:white;
+  }
+  .Navbar-Name::first-letter {
+    color: #0A81AB;
+    font-weight: bolder;
   }

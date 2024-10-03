@@ -7,23 +7,23 @@ import "./projectcards.css"
 
 function ProjectCards({imgPath,title,description,tech,techD,link,a}) {
   return (
-    <Card className="project-card-view">
+    <Card className="project-card">
       <Card.Img variant="top" src={imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Title className="project-title">{title}</Card.Title>
+        <Card.Text  className="project-description" style={{ textAlign: "justify" }}>
           {description}
         </Card.Text>
-        <Card.Title>{tech}</Card.Title>
+        <Card.Title class="project-tech-stack">{tech}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {techD}
         </Card.Text>
-        <Button variant="primary" href={link} target="_blank">
+        <Button variant="primary" href={link} target="_blank" className="project-deployed-link">
           <BiLinkExternal /> &nbsp;
         </Button>
         &nbsp;
         &nbsp;
-        <Button variant="primary" href={a} target="_blank">
+        <Button variant="primary" href={a} target="_blank" className="project-github-link">
           <AiFillGithub /> &nbsp;
         </Button>
       </Card.Body>
