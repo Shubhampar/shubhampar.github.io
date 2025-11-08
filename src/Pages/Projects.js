@@ -25,7 +25,7 @@ function Projects() {
             />
           </Col>
         <Col md={6} className="project-card" >
-            {/* <ProjectCards
+            <ProjectCards
               imgPath="https://user-images.githubusercontent.com/119346050/241807826-818bf108-5477-4e56-b341-8b13e34889e8.png"
               title="FaugetStore.com"
               description="This is an E-Commerce website which specializes in selling clothes and styling products for babies."
@@ -33,7 +33,7 @@ function Projects() {
               techD="Html | Javascript | Css "
               link="https://scintillating-kangaroo-883080.netlify.app/"
               a="https://github.com/Shubhampar/teal-board-7169.git"
-            /> */}
+            />
           </Col>
           <Col md={6} className="project-card">
             <ProjectCards
