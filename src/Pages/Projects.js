@@ -20,12 +20,12 @@ function Projects() {
               description="We have basically cloned the website apple.com and we kept the name as fineapple.com and this website basically consists of electronic gadgets like phones ,watches, laptops and tablet which has differnt OS version than normal android."
               tech="Tech-Stacks"
               techD="Html | Javascript | Css | MockApi | LocalStorage"
-              link="https://vermillion-arithmetic-ac5003.netlify.app/"
+              link="https://playful-frangollo-777454.netlify.app/"
               a="https://github.com/Shubhampar/judicious-income-4437.git"
             />
           </Col>
         <Col md={6} className="project-card" >
-            <ProjectCards
+            {/* <ProjectCards
               imgPath="https://user-images.githubusercontent.com/119346050/241807826-818bf108-5477-4e56-b341-8b13e34889e8.png"
               title="FaugetStore.com"
               description="This is an E-Commerce website which specializes in selling clothes and styling products for babies."
@@ -33,7 +33,7 @@ function Projects() {
               techD="Html | Javascript | Css "
               link="https://scintillating-kangaroo-883080.netlify.app/"
               a="https://github.com/Shubhampar/teal-board-7169.git"
-            />
+            /> */}
           </Col>
           <Col md={6} className="project-card">
             <ProjectCards
@@ -46,7 +46,7 @@ function Projects() {
               a="https://github.com/Shubhampar/touted-toad-5222.git"
             />
           </Col>
-          <Col md={6} className="project-card">
+          {/* <Col md={6} className="project-card">
             <ProjectCards
               imgPath="https://github.com/Shubhampar/clothy/raw/master/src/assets/landingpage.png"
               title="Clothy"
@@ -56,7 +56,7 @@ function Projects() {
               link="https://clothy-fab.netlify.app/"
               a="https://github.com/Shubhampar/clothy.git"
             />
-          </Col>
+          </Col> */}
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="https://user-images.githubusercontent.com/121215502/255426889-7fefce9b-5763-4af3-97c9-31e5d4527816.png"
